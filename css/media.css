@@ -1,0 +1,147 @@
+@media only screen and (max-width : 992px) {
+	.groups {
+		margin: 0 auto;
+	}
+	.g_blue {
+		margin-bottom: 60px;
+	}
+	.logo {
+		margin-top: -20px;
+		text-align: center;
+	}
+	.container {
+		max-width: 98%;
+	}
+	.menu_1 img {
+    margin-right: 5px;
+	}
+	.ticket {
+		margin-left: -40px;
+	}
+	.vid_block img {
+		width: 240px;
+		height: auto;
+	}
+	.vid_vn {
+		width: 240px;
+	}
+	.vid_block {
+		width: 240px;
+		height: 259px;
+	}
+	#akci img {
+		width: 351px;
+		height: 248px;
+	}
+}
+
+
+@media only screen and (min-width : 770px) {
+	.no {
+		display: none;
+	}
+}
+	
+
+@media only screen and (max-width : 770px) {
+	.centerr {
+		text-align: center;
+	}
+	.ot71 {
+		margin-bottom: 70px;
+	}
+	#akci img {
+		width: auto;
+		height: auto;
+	}
+	.sp {
+		margin-bottom: 40px;
+	}
+	.pp {
+		width: 454px;
+		margin: 0 auto;
+	}
+	.none {
+		display: none;
+	}
+	.vid_block img {
+		width: 430px;
+		height: auto;
+	}
+	.vid_vn {
+		width: 430px;
+	}
+	.vid_block {
+		margin-left: auto;
+    	margin-right: auto;
+		width: 430px;
+		height: 259px;
+		margin-bottom: 120px;
+	}
+	.fo2, .fo3 {
+		display: none;
+	}
+	.fo1 {
+		width: 380px;
+	}
+	.fotoga_text {
+		margin-bottom: 40px;
+	}
+}
+
+
+@media only screen and (max-width : 576px) {
+	.vid_block img {
+		width: 380px;
+	}
+	.vid_vn {
+		width: 380px;
+	}
+	.vid_block {
+		width: 380px;
+		height: 259px;
+		margin-bottom: 120px;
+	}
+	.fo1 {
+		width: 380px;
+	}
+	.fotoga_text {
+		margin-bottom: 40px;
+	}
+}
+
+
+@media only screen and (max-width : 480px) {
+	.pp {
+		width: 321px;
+	}
+	#akci img {
+		width: 321px;
+		height: 228px;
+	}
+	.vid_block img {
+		width: 340px;
+	}
+	.vid_vn {
+		width: 340px;
+	}
+	.vid_block {
+		width: 340px;
+		height: 259px;
+		margin-bottom: 120px;
+	}
+	.fo1 {
+		width: 340px;
+	}
+	.fotoga_text {
+		margin-bottom: 40px;
+	}
+}
+
+
+
+@media only screen and (max-width : 380px) {
+	.place_tex {
+		padding-left: 10px;
+	}
+}
