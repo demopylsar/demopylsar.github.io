@@ -1,4 +1,9 @@
 @media only screen and (max-width : 992px) {
+	.sda_btn {
+		position: relative;
+		margin-right: 0;
+		margin: 0 auto;
+	}
 	.groups {
 		margin: 0 auto;
 	}
@@ -36,6 +41,24 @@
 }
 
 
+@media only screen and (max-width: 880px) {
+	.forlef {
+		width: 295px;
+		height: 50px;
+	}
+	.torigh {
+		width: 290px;
+		height: 200px;
+	}
+	.for1_btn {
+		margin-left: 140px;
+	}
+	.obr {
+		font-size: 13px;
+	}
+}
+
+
 @media only screen and (min-width : 770px) {
 	.no {
 		display: none;
@@ -44,6 +67,12 @@
 	
 
 @media only screen and (max-width : 770px) {
+	.hhh1 {
+	    margin-top: 20px;
+	}
+	.kon p {
+		font-size: 14px;
+	}
 	.centerr {
 		text-align: center;
 	}
@@ -91,6 +120,9 @@
 
 
 @media only screen and (max-width : 576px) {
+	.kon p {
+		font-size: 13px;
+	}
 	.vid_block img {
 		width: 380px;
 	}
@@ -112,6 +144,9 @@
 
 
 @media only screen and (max-width : 480px) {
+	.kon p {
+		font-size: 12.5px;
+	}
 	.pp {
 		width: 321px;
 	}
