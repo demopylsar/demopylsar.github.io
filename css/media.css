@@ -1,4 +1,30 @@
+@media only screen and (max-width : 1200px) {
+	.vivi {
+		width: 259px;
+		height: 176px;
+	}
+}
+
 @media only screen and (max-width : 992px) {
+	.wor {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.centerr {
+		text-align: center;
+	}
+	.vivi {
+	    width: 397px;
+	    height: 281px;
+	}
+	.ppo {
+	    width: 397px;
+	    margin: 0 auto;
+	}
+	.centerrr {
+	    width: 397px;
+	    margin: 0 auto;
+	}
 	.sda_btn {
 		position: relative;
 		margin-right: 0;
@@ -42,6 +68,25 @@
 
 
 @media only screen and (max-width: 880px) {
+	.vivi {
+	    width: 397px;
+	    height: 281px;
+	}
+	.ppo {
+	    width: 397px;
+	}
+	.centerrr {
+	    width: 397px;
+	    margin: 0 auto;
+	}
+	.vivi {
+		width: auto;
+		height: auto;
+	}
+	.pp2 {
+		width: 50%;
+		magin: 0 auto;
+	}
 	.forlef {
 		width: 295px;
 		height: 50px;
@@ -90,6 +135,9 @@
 		width: 454px;
 		margin: 0 auto;
 	}
+	.ppo {
+	    width: 347px;
+	}
 	.none {
 		display: none;
 	}
@@ -120,6 +168,9 @@
 
 
 @media only screen and (max-width : 576px) {
+	.cen {
+		margin-left: 40px;
+	}
 	.kon p {
 		font-size: 13px;
 	}
