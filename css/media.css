@@ -6,7 +6,22 @@
 }
 
 @media only screen and (max-width : 992px) {
+	.c {
+		width: 109px;
+		font-size: 10px;
+	}
+	.cc {
+		width: 109px;
+		font-size: 12px;
+	}
+	.c1 {
+		width: 53px;	
+	}
+	.c10 {
+		width: 53px;
+	}
 	.wor {
+		padding-left: 15px;
 		margin-right: 0;
 		margin-left: 0;
 	}
@@ -104,14 +119,55 @@
 }
 
 
-@media only screen and (min-width : 770px) {
+@media only screen and (min-width : 768px) {
 	.no {
 		display: none;
 	}
 }
 	
 
-@media only screen and (max-width : 770px) {
+@media only screen and (max-width : 768px) {
+	.overfj1 {
+		padding-top: 2100px;
+		height: 3298px;
+	}
+	.overfj3 {
+		padding-top: 2100px;
+		height: 3298px;
+	}
+	.overfj2 {
+		padding-top: 2100px;
+		height: 3298px;
+	}
+	.owl-stage {
+		width: 2400px !important;
+	}
+	.owl-item {
+		margin-right: 100px;
+	}
+	.img {
+		display: none;
+	}
+	.cr, .ch, .ca, .cy, .c0, .co {
+		display: none;
+	}
+	.c {
+		width: 232px;
+		font-size: 12px;
+	}
+	.cc {
+		width: 232px;
+		font-size: 14px;
+	}
+	.ctime {
+		width: 87px;
+	}
+	.c1 {
+		width: 87px;	
+	}
+	.c10 {
+		width: 87px;
+	}
 	.hhh1 {
 	    margin-top: 20px;
 	}
@@ -168,6 +224,27 @@
 
 
 @media only screen and (max-width : 576px) {
+	.groups {
+	    width: 240px;
+	}
+	.men {
+		font-size: 10px;
+	    height: 50px;
+	    width: 160px;
+	}
+	.mini-men {
+		font-size: 10px;
+	    height: 50px;
+	    width: 160px;
+	}
+	.men_cat p {
+	    text-decoration: underline;
+	    margin-left: 20px;
+	    margin-right: 20px;
+	}
+	.men_cat {
+	    font-size: 10px;
+	}
 	.cen {
 		margin-left: 40px;
 	}
@@ -227,6 +304,12 @@
 
 
 @media only screen and (max-width : 380px) {
+	.owl-item {
+		margin-right: 200px;
+	}
+	.cit {
+	    font-size: 14px;
+	}
 	.place_tex {
 		padding-left: 10px;
 	}
