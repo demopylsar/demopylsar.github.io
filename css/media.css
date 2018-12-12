@@ -1,316 +1,155 @@
-@media only screen and (max-width : 1200px) {
-	.vivi {
-		width: 259px;
-		height: 176px;
+@media only screen and (max-width : 942px) {
+	.container {
+		width: 720px;
+	}
+	.header_logo {
+	    width: 140px;
+	}
+	.header_btn {
+		padding-top: -5px;
+		font-size: 13px;
+		width: 131px;
+	    height: 45px;
+	    margin-left: 38px;
+	    margin-right: 38px;
+	}
+	.number1 {
+		width: 81px;
+	}
+	.number2 {
+		width: 130px;
+	}
+	.number3 {
+		width: 84px;
+	}
+	.number4 {
+		width: 181px;
+	}
+	.number5 {
+		width: 141px;
+	}
+	.number6 {
+		width: 101px;
+	}
+	.view {
+		width: 221px;
+	}
+	.view img {
+		width: 221px;
+	}
+	.gallery img {
+	    width: 237px;
+	    height: 259px;
+	}
+	.footer_href {
+	    width: 189px;
+	}
+	.friend_header {
+	    margin-left: 81px;
 	}
 }
 
-@media only screen and (max-width : 992px) {
-	.c {
-		width: 109px;
-		font-size: 10px;
+
+@media only screen and (max-width : 360px) {
+	#pk {
+		display: none;
 	}
-	.cc {
-		width: 109px;
-		font-size: 12px;
-	}
-	.c1 {
-		width: 53px;	
-	}
-	.c10 {
-		width: 53px;
-	}
-	.wor {
-		padding-left: 15px;
-		margin-right: 0;
-		margin-left: 0;
-	}
-	.centerr {
-		text-align: center;
-	}
-	.vivi {
-	    width: 397px;
-	    height: 281px;
-	}
-	.ppo {
-	    width: 397px;
-	    margin: 0 auto;
-	}
-	.centerrr {
-	    width: 397px;
-	    margin: 0 auto;
-	}
-	.sda_btn {
-		position: relative;
-		margin-right: 0;
-		margin: 0 auto;
-	}
-	.groups {
-		margin: 0 auto;
-	}
-	.g_blue {
-		margin-bottom: 60px;
-	}
-	.logo {
-		margin-top: -20px;
-		text-align: center;
+	#phone {
+		display: block;
 	}
 	.container {
-		max-width: 98%;
+		width: 320px;
 	}
-	.menu_1 img {
-    margin-right: 5px;
+	.friend_header p {
+	    font-size: 28px;
 	}
-	.ticket {
-		margin-left: -40px;
+	.friend_header {
+	    margin-left: 52px;
 	}
-	.vid_block img {
-		width: 240px;
-		height: auto;
+	.view {
+		width: 320px;
+		margin-bottom: 52px;
 	}
-	.vid_vn {
-		width: 240px;
+	.view img {
+		width: 320px;
 	}
-	.vid_block {
-		width: 240px;
-		height: 259px;
+	.training_view {
+		display: block;
 	}
-	#akci img {
-		width: 351px;
-		height: 248px;
+	.gallery img {
+	    width: 320px;
+	    height: 334px;
 	}
-}
-
-
-@media only screen and (max-width: 880px) {
-	.vivi {
-	    width: 397px;
-	    height: 281px;
+	.gallery_courusel .active {
+		display: block;
 	}
-	.ppo {
-	    width: 397px;
-	}
-	.centerrr {
-	    width: 397px;
-	    margin: 0 auto;
-	}
-	.vivi {
-		width: auto;
-		height: auto;
-	}
-	.pp2 {
-		width: 50%;
-		magin: 0 auto;
-	}
-	.forlef {
-		width: 295px;
-		height: 50px;
-	}
-	.torigh {
-		width: 290px;
-		height: 200px;
-	}
-	.for1_btn {
-		margin-left: 140px;
-	}
-	.obr {
-		font-size: 13px;
-	}
-}
-
-
-@media only screen and (min-width : 768px) {
-	.no {
+	.gallery {
 		display: none;
 	}
-}
-	
-
-@media only screen and (max-width : 768px) {
-	.overfj1 {
-		padding-top: 2100px;
-		height: 3298px;
+	h4 {
+	    font-size: 28px;
 	}
-	.overfj3 {
-		padding-top: 2100px;
-		height: 3298px;
+	#about button {
+	    width: 280px;
+	    height: 41px;
+	    font-size: 12px;
 	}
-	.overfj2 {
-		padding-top: 2100px;
-		height: 3298px;
+	.center button {
+	    width: 280px;
+	    height: 41px;
+	    font-size: 12px;
 	}
-	.owl-stage {
-		width: 2400px !important;
-	}
-	.owl-item {
-		margin-right: 100px;
-	}
-	.img {
-		display: none;
-	}
-	.cr, .ch, .ca, .cy, .c0, .co {
-		display: none;
-	}
-	.c {
-		width: 232px;
-		font-size: 12px;
-	}
-	.cc {
-		width: 232px;
-		font-size: 14px;
-	}
-	.ctime {
-		width: 87px;
-	}
-	.c1 {
-		width: 87px;	
-	}
-	.c10 {
-		width: 87px;
-	}
-	.hhh1 {
-	    margin-top: 20px;
-	}
-	.kon p {
-		font-size: 14px;
-	}
-	.centerr {
+	.phone_btn {
+		width: 35px;
+		height: 35px;
+		border-radius: 5px;
+		padding-top: 0;
 		text-align: center;
 	}
-	.ot71 {
-		margin-bottom: 70px;
+	.phone_btn i {
+		margin-top: 8px;
+		margin-left: 9px;
 	}
-	#akci img {
-		width: auto;
-		height: auto;
-	}
-	.sp {
-		margin-bottom: 40px;
-	}
-	.pp {
-		width: 454px;
-		margin: 0 auto;
-	}
-	.ppo {
-	    width: 347px;
-	}
-	.none {
-		display: none;
-	}
-	.vid_block img {
-		width: 430px;
-		height: auto;
-	}
-	.vid_vn {
-		width: 430px;
-	}
-	.vid_block {
-		margin-left: auto;
-    	margin-right: auto;
-		width: 430px;
-		height: 259px;
-		margin-bottom: 120px;
-	}
-	.fo2, .fo3 {
-		display: none;
-	}
-	.fo1 {
-		width: 380px;
-	}
-	.fotoga_text {
-		margin-bottom: 40px;
-	}
-}
-
-
-@media only screen and (max-width : 576px) {
-	.groups {
-	    width: 240px;
-	}
-	.men {
-		font-size: 10px;
-	    height: 50px;
-	    width: 160px;
-	}
-	.mini-men {
-		font-size: 10px;
-	    height: 50px;
-	    width: 160px;
-	}
-	.men_cat p {
-	    text-decoration: underline;
-	    margin-left: 20px;
-	    margin-right: 20px;
-	}
-	.men_cat {
-	    font-size: 10px;
-	}
-	.cen {
-		margin-left: 40px;
-	}
-	.kon p {
-		font-size: 13px;
-	}
-	.vid_block img {
-		width: 380px;
-	}
-	.vid_vn {
-		width: 380px;
-	}
-	.vid_block {
-		width: 380px;
-		height: 259px;
-		margin-bottom: 120px;
-	}
-	.fo1 {
-		width: 380px;
-	}
-	.fotoga_text {
-		margin-bottom: 40px;
-	}
-}
-
-
-@media only screen and (max-width : 480px) {
-	.kon p {
-		font-size: 12.5px;
-	}
-	.pp {
-		width: 321px;
-	}
-	#akci img {
-		width: 321px;
-		height: 228px;
-	}
-	.vid_block img {
-		width: 340px;
-	}
-	.vid_vn {
-		width: 340px;
-	}
-	.vid_block {
-		width: 340px;
-		height: 259px;
-		margin-bottom: 120px;
-	}
-	.fo1 {
-		width: 340px;
-	}
-	.fotoga_text {
-		margin-bottom: 40px;
-	}
-}
-
-
-
-@media only screen and (max-width : 380px) {
-	.owl-item {
-		margin-right: 200px;
-	}
-	.cit {
+	.phone_number {
+		margin-top: 31px;
 	    font-size: 14px;
+	    font-weight: 600;
+	    margin-bottom: 7px;
 	}
-	.place_tex {
-		padding-left: 10px;
+	.header_phone p {
+		font-size: 12px;
+		line-height: 7px;
 	}
-}
+	.place_icon {
+		width: 18px;
+	}
+	.coordinate_sity {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.coordinate_sity {
+	   width: 100px;
+	}
+	.phone_foot {
+		margin-top: 18px;
+	}
+	.footer_href a {
+		width: 100px;
+		margin-right: 11px;
+	}
+	.phonen_btn {
+		margin-top: 11px;
+		margin-bottom: 16px;
+		color: #FFF;
+		width: 150px;
+		height: 36px;
+		background: #d70225;
+		border-radius: 18px;
+	}
+	.phonen_btn i {
+		color: #FFF;
+	}
+	.centter {
+		text-align: center;
+	}
+}	

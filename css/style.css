@@ -6,18 +6,25 @@ header {
 	font-family: 'Open Sans', sans-serif;
 }
 
+section h6 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+
 h5 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 h6 {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 h4 {
@@ -95,14 +102,14 @@ p {
 }
 
 .phone_btn {
-	padding-top: 9px;
+	padding-top: 15px;
 	width: 152px;
 	height: 36px;
 	background: #f3f3f3;
 	text-align: center;
 	font-size: 12px;
 	font-weight: 400;
-	border-radius: 16px;
+	border-radius: 26px;
 }
 
 .menu_icons a {
@@ -121,6 +128,7 @@ p {
 
 .header_menu {
 	margin-top: 26px;
+	padding-top: 11px;
 }
 
 .m_1 {
@@ -338,4 +346,249 @@ footer a {
 
 .share {
 	margin-bottom: 40px;
+}
+
+#separately img {
+	max-width: 100%;
+	height: auto;
+}
+
+.section_watch {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.section_watch p {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-left: 9px;
+}
+
+.section_text {
+	margin-bottom: 107px;
+}
+
+.kontakts {
+	height: 48px;
+	width: 418px;
+	margin-bottom: 15px;
+}
+
+.kontakts p {
+	margin-left: 12px;
+	font-size: 18px;
+}
+
+.map {
+	width: 29px;
+	height: 38px;
+}
+
+.email {
+	width: 39px;
+	height: 25px;
+}
+
+.android {
+	width: 26px;
+	height: 39px;
+}
+
+.watchs {
+	width: 33px;
+	height: 48px;
+}
+
+.kontakts_map {
+	margin-top: 4px;
+}
+
+.kontakts_email {
+	margin-top: -2px;
+}
+
+.kontakts_android {
+	margin-top: 7px;
+}
+
+.kontakts_watchs {
+	margin-top: 11px;
+}
+
+.kontakts_forma {
+	border: 1px solid #c1c1c1;
+	padding-left: 22px;
+	color: #000;
+	font-size: 18px;
+	height: 54px;
+	width: 407px;
+}
+
+.kontakts_forma_text {
+	margin-top: 14px;
+	margin-bottom: 8px;
+}
+
+.kontakts_sms {
+	border: 1px solid #c1c1c1;
+	padding-left: 22px;
+	color: #000;
+	font-size: 18px;
+	line-height: 44px;
+	height: 208px;
+	width: 402px;
+	position: absolute;
+	margin-top: 32px;
+	right: 0;
+	margin-right: 53px;
+	z-index: 100;
+	top: 0;
+}
+
+.kontakts_forma_sms {
+	margin-bottom: 8px;
+	position: absolute;
+	right: 0;
+	margin-right: 397px;
+	z-index: 100;
+	top: 0;
+}
+
+.kontakts_forma_btn {
+	margin-top: 33px;
+	float: right;
+	margin-right: 53px;
+	width: 148px;
+	height: 51px;
+	background: #ff0000;
+	text-align: center;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 26px;
+}
+
+._forma_ {
+	margin-bottom: 156px;
+}
+
+/* прячем input checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+ 
+/* стили для метки */
+label {
+	color: #000;
+	cursor: default;
+	font-weight: normal;
+	line-height: 30px;
+	padding: 10px 0;
+	vertical-align: middle;
+}
+ 
+/* формируем внешний вид чекбокса в псевдоэлементе before */
+label:before {
+	content: " ";
+	color: #214b87;
+	display: inline-block;
+	margin-right: 17px; position: relative;
+	text-align: center;
+	text-indent: 0px;
+	width: 34px;
+	height: 34px;
+	background: #FFF;
+	border: 1px solid #c1c1c1;
+	border-image: initial; 
+	vertical-align: middle;
+}
+ 
+/* вариации внешнего вида в зав-ти от статуса checkbox */
+/* checked */
+input:checked + label:before {
+	content: "✔";
+	font-size: 30px;
+}
+/* disabled */
+input:disabled + label:before {
+	background: #eee;
+	color: #aaa;
+}
+
+.text_p p {
+	width: 490px;
+	line-height: 24px;
+	margin-left: 23px;
+	color: #214b87;
+	font-size: 18px;
+}
+
+.text_p strong {
+	font-size: 14px;
+	font-weight: 600;
+	color: #000;
+	margin-left: 8px;
+}
+
+.text_icon {
+	width: 32px;
+	height: 32px;
+}
+
+.text_icon p {
+	width: 95px;
+	line-height: 18px;
+	font-size: 12px;
+	text-align: right;
+	margin-left: 9px;
+}
+
+.group_text_p {
+	position: absolute;
+	margin-top: 387px;
+	margin-left: 314px;
+	top: 0;
+	width: 610px;
+}
+
+.mtop {
+	margin-top: 32px;
+}
+
+.mtop span {
+	margin-right: 14px;
+}
+
+.center button {
+    margin-top: 38px;
+    width: 339px;
+    height: 51px;
+    background: #ff0000;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 26px;
+    margin-bottom: 74px;
+}
+
+.head_logo {
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	border-radius: 5px;
+	background: #214b87;
+	color: #FFF;
+}
+
+.head_logo i {
+	margin-top: 12px;
+}
+
+.coordinate_sity span {
+	border-bottom: 1px solid #8f8f8f;
+}
+
+.center {
+	margin: 0 auto;
 }

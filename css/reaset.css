@@ -45,6 +45,32 @@ button {
 	border: none;
 	cursor: pointer;
 }
+input {
+    background:none;
+    outline:none;
+    padding:0;
+}
 h1 {
 	font-weight: 600;
 }
+input::-webkit-input-placeholder {
+	color:#c1c1c1;
+	opacity:1;
+	font-size: 18px;
+	font-weight: 400;
+} 
+input::-moz-placeholder {
+	color:#c1c1c1;
+	opacity:1;
+	font-size: 18px;
+	font-weight: 400;
+}
+form {
+	position: relative;
+}
+.kontakts_sms::-moz-placeholder {line-height: 44px;}
+.kontakts_sms::-ms-input-placeholder {line-height: 44px;}
+.kontakts_sms::-webkit-input-placeholder {line-height: 44px;} 
+.kontakts_sms::-moz-placeholder {line-height: 44px;}
+.kontakts_sms::-moz-placeholder {line-height: 44px;}
+.kontakts_sms::-ms-input-placeholder {line-height: 44px;}
