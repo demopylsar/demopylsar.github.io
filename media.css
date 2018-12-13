@@ -1,0 +1,193 @@
+@media only screen and (max-width : 942px) {
+	.view_href {
+		padding: 21px 10px 0 22px;
+		height: 77px;
+	}
+	.container {
+		width: 720px;
+	}
+	.header_logo {
+	    width: 140px;
+	}
+	.header_btn {
+		padding-top: -5px;
+		font-size: 13px;
+		width: 131px;
+	    height: 45px;
+	    margin-left: 38px;
+	    margin-right: 38px;
+	}
+	.number1 {
+		width: 81px;
+	}
+	.number2 {
+		width: 130px;
+	}
+	.number3 {
+		width: 84px;
+	}
+	.number4 {
+		width: 181px;
+	}
+	.number5 {
+		width: 141px;
+	}
+	.number6 {
+		width: 101px;
+	}
+	.view {
+		width: 221px;
+	}
+	.view img {
+		width: 221px;
+	}
+	.gallery img {
+	    width: 237px;
+	    height: 259px;
+	}
+	.footer_href {
+	    width: 189px;
+	}
+	.friend_header {
+	    margin-left: 81px;
+	}
+}
+
+@media only screen and (min-width : 540px) {
+	#phone {
+		display: none;
+	}
+	#pk {
+		display: block;
+	}
+}
+
+
+@media only screen and (max-width : 540px) {
+	#pk {
+		display: none;
+	}
+	#phone {
+		display: block;
+	}
+	.container {
+		width: 320px;
+	}
+	.friend_header p {
+	    font-size: 28px;
+	}
+	.friend_header {
+	    margin-left: 52px;
+	}
+	.view {
+		width: 320px;
+		margin-bottom: 52px;
+	}
+	.view img {
+		width: 320px;
+	}
+	.training_view {
+		display: block;
+	}
+	.gallery img {
+	    width: 320px;
+	    height: 334px;
+	}
+	.gallery_courusel .active {
+		display: block;
+	}
+	.gallery {
+		display: none;
+	}
+	h4 {
+	    font-size: 28px;
+	}
+	#about button {
+	    width: 280px;
+	    height: 41px;
+	    font-size: 12px;
+	}
+	.center button {
+	    width: 280px;
+	    height: 41px;
+	    font-size: 12px;
+	}
+	.phone_btn {
+		width: 35px;
+		height: 35px;
+		border-radius: 5px;
+		padding-top: 0;
+		text-align: center;
+		margin-right: 10px;
+	}
+	.phone_btn i {
+		margin-top: 8px;
+		margin-left: 9px;
+	}
+	.phonee_number {
+		width: 320px;
+		text-align: center;
+		margin-bottom: 0px;
+	    font-size: 14px;
+	    font-weight: 600;
+	}
+	.header_phone p {
+		font-size: 12px;
+		line-height: 7px;
+	}
+	.phone_number {
+		width: 139px;
+	    font-size: 14px;
+	    font-weight: 600;
+	    margin-bottom: 7px;
+	}
+	.place_icon {
+		width: 18px;
+	}
+	.coordinate_sity {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.coordinate_sity {
+	   width: 100px;
+	}
+	.phone_foot {
+		margin-top: 31px;
+	}
+	.footer_href {
+		text-align: center;
+		width: 320px;
+		margin-bottom: 11px;
+	}
+	.footer_href a {
+		margin-right: 11px;
+	}
+	.phonen_btn {
+		margin-top: 11px;
+		margin-bottom: 16px;
+		color: #FFF;
+		width: 150px;
+		height: 36px;
+		background: #d70225;
+		border-radius: 18px;
+	}
+	.footer_icon {
+		margin-left: 82px;
+	}
+	.phonen_btn i {
+		color: #FFF;
+	}
+	.centter {
+		text-align: center;
+	}
+	.footer_href a {
+	    margin-bottom: 0px;
+	}
+	.top {
+		margin-top: 18;
+	}
+	.view_href {
+		padding: 26px 10px 0 22px;
+		height: 89px;
+	}
+}	
