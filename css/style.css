@@ -4,6 +4,8 @@ header {
 
 * {
 	font-family: 'Open Sans', sans-serif;
+	-moz-box-sizing: border-box; /* Для Firefox */  
+	box-sizing: border-box; /* Ширина блока с полями */
 }
 
 section h6 {
@@ -222,7 +224,7 @@ p {
 	font-weight: 600;
 	padding: 26px 10px 0 22px;
 	margin-top: -2px;
-	height: 63px;
+	height: 89px;
 	color: #FFF;
 	background: #214b87;
 }

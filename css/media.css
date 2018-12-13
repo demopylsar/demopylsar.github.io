@@ -1,4 +1,8 @@
 @media only screen and (max-width : 942px) {
+	.view_href {
+		padding: 21px 10px 0 22px;
+		height: 77px;
+	}
 	.container {
 		width: 720px;
 	}
@@ -131,6 +135,12 @@
 		font-size: 12px;
 		line-height: 7px;
 	}
+	.phone_number {
+		width: 139px;
+	    font-size: 14px;
+	    font-weight: 600;
+	    margin-bottom: 7px;
+	}
 	.place_icon {
 		width: 18px;
 	}
@@ -175,5 +185,9 @@
 	}
 	.top {
 		margin-top: 18;
+	}
+	.view_href {
+		padding: 26px 10px 0 22px;
+		height: 89px;
 	}
 }	
