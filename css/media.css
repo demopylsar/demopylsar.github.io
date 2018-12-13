@@ -49,8 +49,17 @@
 	}
 }
 
+@media only screen and (min-width : 540px) {
+	#phone {
+		display: none;
+	}
+	#pk {
+		display: block;
+	}
+}
 
-@media only screen and (max-width : 360px) {
+
+@media only screen and (max-width : 540px) {
 	#pk {
 		display: none;
 	}
@@ -105,16 +114,18 @@
 		border-radius: 5px;
 		padding-top: 0;
 		text-align: center;
+		margin-right: 10px;
 	}
 	.phone_btn i {
 		margin-top: 8px;
 		margin-left: 9px;
 	}
-	.phone_number {
-		margin-top: 31px;
+	.phonee_number {
+		width: 320px;
+		text-align: center;
+		margin-bottom: 0px;
 	    font-size: 14px;
 	    font-weight: 600;
-	    margin-bottom: 7px;
 	}
 	.header_phone p {
 		font-size: 12px;
@@ -131,10 +142,14 @@
 	   width: 100px;
 	}
 	.phone_foot {
-		margin-top: 18px;
+		margin-top: 31px;
+	}
+	.footer_href {
+		text-align: center;
+		width: 320px;
+		margin-bottom: 11px;
 	}
 	.footer_href a {
-		width: 100px;
 		margin-right: 11px;
 	}
 	.phonen_btn {
@@ -146,10 +161,19 @@
 		background: #d70225;
 		border-radius: 18px;
 	}
+	.footer_icon {
+		margin-left: 82px;
+	}
 	.phonen_btn i {
 		color: #FFF;
 	}
 	.centter {
 		text-align: center;
+	}
+	.footer_href a {
+	    margin-bottom: 0px;
+	}
+	.top {
+		margin-top: 18;
 	}
 }	
