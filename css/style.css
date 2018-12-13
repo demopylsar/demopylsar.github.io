@@ -23,6 +23,7 @@ h5 {
 }
 
 h6 {
+	line-height: 36px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 	font-size: 18px;
@@ -91,6 +92,7 @@ p {
 }
 
 .phone_number {
+	color: #000;
 	width: 151px;
 	font-size: 17px;
 	font-weight: 600;
@@ -372,8 +374,17 @@ footer a {
 
 .kontakts {
 	height: 48px;
-	width: 418px;
+	width: 415px;
 	margin-bottom: 15px;
+}
+
+.kontakts_v2 {
+	width: 300px;
+}
+
+.kontakts_v2 p {
+	margin-left: 12px;
+	font-size: 18px;
 }
 
 .kontakts p {
@@ -439,7 +450,6 @@ footer a {
 	line-height: 44px;
 	height: 208px;
 	width: 402px;
-	position: absolute;
 	margin-top: 32px;
 	right: 0;
 	margin-right: 53px;
@@ -447,11 +457,14 @@ footer a {
 	top: 0;
 }
 
+.sms_kontakt {
+	position: absolute;
+}
+
 .kontakts_forma_sms {
 	margin-bottom: 8px;
-	position: absolute;
 	right: 0;
-	margin-right: 397px;
+	margin-right: 375px;
 	z-index: 100;
 	top: 0;
 }
@@ -477,6 +490,7 @@ footer a {
 /* прячем input checkbox */
 input[type="checkbox"] {
   display: none;
+  transition: 0.2s;
 }
  
 /* стили для метки */
@@ -487,6 +501,7 @@ label {
 	line-height: 30px;
 	padding: 10px 0;
 	vertical-align: middle;
+	transition: 0.2s;
 }
  
 /* формируем внешний вид чекбокса в псевдоэлементе before */
@@ -494,7 +509,8 @@ label:before {
 	content: " ";
 	color: #214b87;
 	display: inline-block;
-	margin-right: 17px; position: relative;
+	margin-right: 17px; 
+	position: relative;
 	text-align: center;
 	text-indent: 0px;
 	width: 34px;
@@ -503,6 +519,7 @@ label:before {
 	border: 1px solid #c1c1c1;
 	border-image: initial; 
 	vertical-align: middle;
+	transition: 0.2s;
 }
  
 /* вариации внешнего вида в зав-ти от статуса checkbox */
@@ -510,11 +527,13 @@ label:before {
 input:checked + label:before {
 	content: "✔";
 	font-size: 30px;
+	transition: 0.2s;
 }
 /* disabled */
 input:disabled + label:before {
 	background: #eee;
 	color: #aaa;
+	transition: 0.2s;
 }
 
 .text_p p {

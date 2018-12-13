@@ -51,6 +51,36 @@
 	.friend_header {
 	    margin-left: 81px;
 	}
+	footer {
+		height: 183px;
+	}
+	.kontakts_forma {
+	    height: 54px;
+	    width: 297px;
+	}
+	.kontakts_sms {
+	    height: 208px;
+	    width: 293px;
+	}
+	.kontakts_forma_sms {
+	    margin-right: 266px;
+	}
+	.share {
+	    width: 345px;
+	    margin-right: 30px;
+	}
+	.share h6 {
+	    margin-top: 30px;
+	    margin-bottom: 24px;
+	    font-size: 18px;
+	    font-weight: 600;
+	}
+	.share img {
+		max-width: 100%;
+	}
+	.share {
+	    margin-bottom: 52px;
+	}
 }
 
 @media only screen and (min-width : 720px) {
@@ -189,5 +219,61 @@
 	.view_href {
 		padding: 26px 10px 0 22px;
 		height: 89px;
+	}
+	footer {
+		height: 234px;
+	}
+	.kontakts_forma_sms {
+		margin-top: 14px;
+	    margin-bottom: 8px;
+	    right: 0;
+	    margin-right: 0;
+	    z-index: 0;
+	    top: 0;
+	}
+	.kontakts_sms {
+	    margin-top: 0;
+	    right: 0;
+	    margin-right: 0;
+	    z-index: 0;
+	    top: 0;
+	}
+	form .sms_kontakt {
+		position: inherit;
+	}
+	.kontakts_forma_btn {
+		position: absolute;
+	    margin-top: 33px;
+	    margin-right: 0;
+	    width: 264px;
+	    height: 51px;
+	    left: 0;
+	    bottom: 0;
+	}
+	._forma_ {
+		height: 723px;
+		margin-bottom: 90px;
+	}
+	label:before {
+		margin-right: 14px; 
+	}
+	.kontakts_v2 {
+		margin-bottom: 37px;
+	}
+	.kontakts {
+		margin-bottom: 16px;
+	}
+	.share {
+	    width: 320px;
+	    margin-right: 0;
+	}
+	.share {
+	    margin-bottom: 39px;
+	}
+	#stock .d-flex {
+		display: block;
+	}
+	.share h6 {
+	    margin-top: 28px;
 	}
 }	

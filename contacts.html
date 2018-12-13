@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/reaset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -11,7 +12,34 @@
 </head>
 <body>
 
-	<header>
+
+
+	<header id="phone">
+		<div class="container">
+			<div class="phone_head">
+				<div class="head_logo"><i class="fas fa-bars"></i></div>
+			</div>
+			<div class="phone_foot d-flex">
+				<div class="phone_btn"><i class="fas fa-phone"></i></div>
+				<div class="header_phone">
+					<div class="phone_number">+7 (961) 265 48 89</div>
+					<p>пн – сб, 9:00 – 21:00</p>
+				</div>
+				<div class="header_place d-flex">
+				<div class="place_icon">
+					<i class="fas fa-map-marker-alt"></i>
+				</div>
+				<div class="place_coordinate">
+					<p class="coordinate_sity"><span>г. Калининград,</span></br>ул.Горького д.50</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</header>
+
+
+
+	<header id="pk">
 		<div class="container">
 			<div class="heder_height d-flex">
 				<div class="header_logo d-flex">
@@ -45,9 +73,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="stock">
-			<div class="container"><span>Главная</span> / Контакты</div>
-		</div>
 	</header>
 
 	<section><div class="container"><h5>КОНТАКТЫ</h5></div></section>
@@ -61,7 +86,7 @@
 				<img src="icon/map.png" class="map" alt="">
 				<p class="kontakts_map">г. Калининград, ул. Горького, 50</p>
 			</div>
-			<div class="kontakts d-flex">
+			<div class="kontakts_v2 d-flex">
 				<img src="icon/e-mail.png" class="email" alt="">
 				<p class="kontakts_email">apulsar@ya.ru</p>
 			</div>
@@ -69,7 +94,7 @@
 				<img src="icon/android.png" class="android" alt="">
 				<p class="kontakts_android">+7 921 265 48 89</p>
 			</div>
-			<div class="kontakts d-flex">
+			<div class="kontakts_v2 d-flex">
 				<img src="icon/watchs.png" class="watchs" alt="">
 				<p class="kontakts_watchs">Ежедневно с 9:00 до 21:00</p>
 			</div>
@@ -83,8 +108,8 @@
 				<input type="text" class="kontakts_forma" placeholder="alenaalbertovna@yandex.ru">
 				<p class="kontakts_forma_text">Телефон</p>
 				<input type="text" class="kontakts_forma" placeholder="+7 (XXX) XXX-XX-XX">
-				<p class="kontakts_forma_sms">Ваш вопрос</p>
-				<input type="text" class="kontakts_sms" placeholder="Введите текст">
+				<p class="kontakts_forma_sms sms_kontakt">Ваш вопрос</p>
+				<input type="text" class="kontakts_sms sms_kontakt" placeholder="Введите текст">
 				<button class="kontakts_forma_btn">Отправить</button></br></br>
 				<input type="checkbox" id="checkbox-id">
 				<label for="checkbox-id">Согласие на обработку персональных данных</label>
@@ -92,7 +117,7 @@
 		</div>
 	</section>
 	
-	<footer>
+	<footer id="pk">
 		<div class="container">
 			<div class="d-flex">
 				<div class="footer_href">
@@ -128,6 +153,30 @@
 			</div>
 		</div>
 	</footer>
+
+
+
+	<footer id="phone">
+		<div class="container"> 
+			<div class="footer_href">
+				<a href="#">О нас</a>
+				<a href="#">Акции</a>
+				<a href="#">Новости</a>
+			</div>
+			
+			<div class="phonee_number top">+7 (961) 265 48 89</div>
+			<p class="centter"><button class="phonen_btn"><i class="fas fa-phone"></i>Заказать звонок</button></p>
+				<div class="footer_icon d-flex">
+					<div class="icon_soc"><i class="fab fa-vk"></i></div>
+					<div class="icon_soc"><i class="fab fa-facebook-f"></i></div>
+					<div class="icon_soc"><i class="fab fa-odnoklassniki"></i></div>
+					<div class="icon_soc"><i class="fab fa-instagram"></i></div>
+				</div>
+			<div class="footer_protection center">©2018 | Все права защищены</div>
+		</div>
+	</footer>
+
+
 
 </body>
 </html>
